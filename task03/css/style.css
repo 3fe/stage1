@@ -28,6 +28,7 @@ p {
 	width: 200px;
 	background-color: #fff;
 	border: solid thin #999;
+	position: relative;
 }
 
 .left-div img {
@@ -66,7 +67,7 @@ p {
 
 #group-title {
 	position: absolute;
-	top: 40px;
+	top: 20px;
 	vertical-align: top;
 	font-size: small;
 	font-weight: bold;
