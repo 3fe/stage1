@@ -2,20 +2,26 @@
 	margin: 0;
 	padding: 0;
 }
+
 body {
 	background-color: #ddd;
 	font-family: "Microsoft YaHei";
 }
-nav {
-	padding: 20px;
+
+header {
 	background-color: #155799;
-	color: #fff;
+	padding: 20px;
 }
-nav h1 {
+
+header h1 {
 	display: inline;
+	color: #ceec2f;
 }
-nav ul {
+
+nav {
 	float: right;
+	padding: 20px;
+	color: #fff;
 }
 
 nav li {
@@ -48,12 +54,7 @@ table {
 	text-align: left;
 }
 
-.post {
-	margin: 25px;
-	padding: 25px;
-	background-color: #fff;
-	box-shadow: 2px 2px 2px #888888;
-}
+
 p.para {
 	margin-top: 10px;
 	text-indent: 2em;
@@ -123,6 +124,13 @@ aside h3 {
 	color: #fff;
 	font-size: large;
 	border-radius: 10px;
+}
+
+.post {
+	margin: 25px;
+	padding: 25px;
+	background-color: #fff;
+	box-shadow: 2px 2px 2px #888888;
 }
 
 .pic-div {
