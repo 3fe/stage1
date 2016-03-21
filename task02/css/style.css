@@ -54,7 +54,7 @@ table {
 	background-color: #fff;
 	box-shadow: 2px 2px 2px #888888;
 }
-p {
+p.para {
 	margin-top: 10px;
 	text-indent: 2em;
 }
