@@ -11,13 +11,13 @@
 		"difficulty": "简单",
 		"taskId": "2"
 	},
-		{
+	{
 		"url": "./task03/index.html",
 		"title": "任务三：三栏式布局",
 		"difficulty": "简单",
 		"taskId": "3"
 	},
-		{
+	{
 		"url": "./task04/index.html",
 		"title": "任务四：定位和居中问题",
 		"difficulty": "简单",
