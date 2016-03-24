@@ -2,8 +2,12 @@
 	margin: 0;
 	padding: 0;
 }
+html {
+	background-color: #ddd;
+}
 
 body {
+	background-color: #fff;
 	width: 980px;
 	height: 1386px;
 	margin: 2px 44px 44px 2px;
@@ -34,6 +38,22 @@ header > div {
 	padding-top: 44px;
 }
 
+footer {
+	position: absolute;
+	width: 892px;
+	height: 86px;
+	top: 1300px;
+	clear: both;
+	border-top: 1px #938e8c solid;
+}
+
+footer > span {
+	float: right;
+	font-family: "SimHei";
+	font-size: 12px;
+	color: #d45d5c;
+}
+
 div.title {
 	float: left;
 	width: 110px;
@@ -57,9 +77,86 @@ div.headline {
 }
 
 .bigimg {
+	float: left;
 	width: 641px;
 	height: 301px;
-
-	background-color: #ddd;
 	background: url(../../../img/task06/pic1.jpg);
+}
+
+.bigimg div {
+	width: 191px;
+	height: 301px;
+}
+
+.bigimg div:first-child {
+	float: left;
+	background-color: #428c59;
+	opacity: 0.5;
+}
+
+.bigimg div:last-child {
+	float: right;
+	background-color: #cd7681;
+	opacity: 0.5;
+}
+
+.about {
+	position: relative;
+	float: right;
+	width: 203px;
+	height: 301px;
+	border-top: 2px #cc8091 solid;
+	font-family: "Microsoft YaHei";
+	text-align: left;
+	overflow: hidden;
+}
+
+p.title {
+	color: #000;
+	font-size: 24px; 
+	line-height: 40px;
+	text-decoration: underline;
+	font-variant: small-caps;
+}
+
+p.little {
+	font-size: 12px;
+	color: #676737;
+	line-height: 10px;
+	font-family: "KaiTi";
+}
+
+p.bignum {
+	color: #75b86b;
+	font-size: 116px;
+	font-style: oblique;
+	margin-left: -20px;
+}
+
+p.smallnum {
+	color: #cc8091;
+	font-size: 55px;
+	position: absolute;
+	bottom: -10px;
+}
+
+.css {
+	position: absolute;
+	bottom: 0;
+	left: 85px;
+}
+
+.css span {
+	display: block;
+	line-height: 15px;
+}
+
+.css span:first-child {
+	color: #cc8091;
+	font-size: 21px;
+}
+
+.css span:last-child {
+	color: #938e8c;
+	font-size: 12px;
 }
