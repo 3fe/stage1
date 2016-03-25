@@ -16,7 +16,6 @@ body {
 	-2px -2px 3px #aaa, 
 	-2px -2px 3px #aaa;
 
-	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -64,7 +63,7 @@ div.title {
 }
 
 header span {
-	margin-left: 10px;
+	margin-left: 40px;
 }
 
 div.time {
@@ -72,8 +71,79 @@ div.time {
 	color: #d45d5c;
 }
 
-div.headline {
+section.top {
+	margin-top: 30px;
+	/*height: 301px;*/
+	overflow: auto;
+}
+
+section.middle {
+	width: 620px;
+	position: relative;
+	text-align: left;
+	clear: both;
+	margin-top: 30px;
+	font-family: "SimSun";
+}
+
+section.bottom {
 	margin-top: 40px;
+}
+
+section.middle article {
+	display: inline-block;
+}
+
+section.bottom article {
+	margin-left: 6px;
+}
+
+article.what {
+	float: left;
+}
+
+article.when {
+	margin-left: 28px;
+}
+
+article.how {
+	float: right;
+}
+
+article.how span {
+	color: #cd4a48;
+	font-style: italic;
+}
+
+article.how span, p.ratio, .middle h2 {
+	font-family: "Microsoft YaHei";
+}
+
+.middle p {
+	font-size: 12px;
+	color: #231815;
+	line-height: 16px;
+	opacity: 0.7;
+}
+
+article.what p{
+	opacity: 1;
+}
+
+article.how p {
+	line-height: 21px;
+}
+
+article.what h2{
+	color: #418c59;
+}
+
+article.when h2{
+	color: #d2994f;
+}
+
+article.how h2{
+	color: #cc7680;
 }
 
 .bigimg {
@@ -159,4 +229,123 @@ p.smallnum {
 .css span:last-child {
 	color: #938e8c;
 	font-size: 12px;
+}
+
+.middle h2 {
+	font-size: 16px;
+	text-decoration: underline;
+	margin-bottom: 5px;
+}
+
+p.p1:first-letter {
+	color: #f5e327;
+	font-size: 70px;
+	font-family: "Microsoft YaHei";
+	margin-right: 2px; 
+
+	float: left;
+	line-height: 70px;
+}
+
+div.left article p {
+	font-size: 12px;
+	font-family: "SimSun";
+	color: #767777;
+	line-height: 16px;
+}
+
+span.the {
+	font-size: 72px;
+	font-style: oblique;
+	color: #f5e327;
+}
+
+p.tech {
+	display: inline;
+	font-size: 42px;
+	color: #11456b;
+}
+
+div.left {
+	float: left;
+	width: 415px;
+}
+
+div.right {
+	float: right;
+}
+
+div.ttof {
+	border-bottom: 2px #11456b solid;
+	padding-bottom: 5px;
+	margin-bottom: 20px;
+}
+
+span.the, p.tech {
+	font-weight: bold;
+	font-family: "SimHei";
+}
+
+div.ttof p:last-child {
+	font-size: 33px;
+}
+
+div.blm {
+	overflow: auto;
+}
+
+div.blm div:first-child {
+	float: left;
+}
+
+div.blm p {
+	width: 18em;
+}
+
+
+div.blm div:last-child {
+	float: right;
+	margin-right: 4px;
+	margin-top: 15px;
+}
+
+p.p2 {
+	text-indent: 2em;
+}
+
+div.pic2 {
+	margin-top: 15px;
+	position: relative;
+	width: 458px;
+	height: 257px;
+	background: url(../../../img/task06/pic2.jpg) no-repeat;
+}
+
+div.pic2 > div {
+	height: 61px;
+	width: 458px;
+	background-color: rgba(0, 0, 0, .4);
+	position: absolute;
+	bottom: 0;
+}
+
+div.pictext {
+	font-family: "Microsoft YaHei";
+	font-size: 26px;
+	color: #fff;
+	border-left: 3px #72b16a solid;
+	padding-left: 15px;
+	margin-left: 35px;
+
+	margin-top: 10px;
+/*	display: inline-block;
+	vertical-align: middle;*/
+}
+
+div.pictext span {
+	font-size: 12px;
+	font-style: oblique;
+	color: #72b16a;
+	letter-spacing: 2px;
+
 }
