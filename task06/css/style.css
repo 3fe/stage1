@@ -337,15 +337,115 @@ div.pictext {
 	padding-left: 15px;
 	margin-left: 35px;
 
-	margin-top: 10px;
-/*	display: inline-block;
-	vertical-align: middle;*/
+	position: absolute;
+	top: 50%;
+	margin-top: -17.5px;
 }
 
 div.pictext span {
-	font-size: 12px;
+	font-size: 15px;
 	font-style: oblique;
 	color: #72b16a;
 	letter-spacing: 2px;
 
+}
+
+div.right li {
+	list-style-image: url(../../../img/task06/icon.png);
+	line-height: 20px;
+	font-size: 16px;
+	color: #5a5b5b;
+}
+
+div.right li span {
+	font-size: 12px;
+	font-style: oblique;
+}
+
+div.right ul {
+	position: absolute;
+	top: 25px;
+	left: 50px;
+}
+
+div.right > div:last-child {
+	position: relative;
+	width: 459px;
+	height: 318px;
+	margin-top: 33px;
+	background-color: #eeedd6;
+	/*padding: 40px 20px 20px 50px;*/
+	/*overflow: auto;*/
+}
+
+div.stamp {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	font-family: "SimHei";
+	color: #fff;
+	background-color: #d45d5c;
+	width: 260px;
+	height: 160px;
+}
+
+div.stamp > span {
+	position: absolute;
+	top: 50%;
+	margin-top: -72.5px;
+	left: 10px;
+	font-size: 110px;
+	font-family: "Microsoft YaHei";
+	vertical-align: middle;
+}
+
+div.stamp >div:last-child {
+	position: absolute;
+	top: 50%;
+	margin-top: -38px;
+	right: 15px;
+	font-size: 12px;
+	border-left: 2px #fff solid;
+	padding-left: 10px;
+}
+
+span.num {
+	display: block;
+	font-size: 21px;
+	line-height: 24px;
+	font-family: "SimHei";
+	font-style: oblique;
+}
+
+div.lastdiv {
+	position: absolute;
+	right: 0;
+	bottom: 40px;
+	width: 190px;
+	font-family: "SimHei";
+}
+
+p.lastp {
+	font-size: 14px;
+	font-style: oblique;
+	line-height: 16px;
+	text-indent: 3em;
+}
+
+p.lastp span {
+	font-size: 72px;
+	color: #d45d5c;
+	font-style: normal;
+}
+
+span.quote1 {
+	position: absolute;
+	top: 15px;
+	right: 155px;
+}
+
+span.quote2 {
+	position: absolute;
+	bottom: -25px;
+	right: -12px;
 }
